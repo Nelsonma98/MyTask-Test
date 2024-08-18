@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiTask</name>
+    </assembly>
+    <members>
+        <member name="T:ApiTask.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:ApiTask.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ApiTask.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ApiTask.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="P:ApiTask.Models.MyTask.Id">
+            <summary>
+            The unique identifier of the task.
+            </summary>
+        </member>
+        <member name="P:ApiTask.Models.MyTask.Title">
+            <summary>
+            The title of the task. This field is required.
+            </summary>
+        </member>
+        <member name="P:ApiTask.Models.MyTask.Description">
+            <summary>
+            The description of the task. This field is required.
+            </summary>
+        </member>
+    </members>
+</doc>

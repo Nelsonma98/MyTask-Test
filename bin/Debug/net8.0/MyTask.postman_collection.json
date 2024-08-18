@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "2b9a6936-ecb9-4981-b7f9-ad7dc09d9fec",
+		"name": "MyTask",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20413619"
+	},
+	"item": [
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Title\":\"Title1\",\n    \"Description\":\"Description1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5215/api/task",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5215",
+					"path": [
+						"api",
+						"task"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5215/api/task",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5215",
+					"path": [
+						"api",
+						"task"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find One",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5215/api/task/c5d1cd12-3ed2-49b7-8b94-4ca3661159e9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5215",
+					"path": [
+						"api",
+						"task",
+						"c5d1cd12-3ed2-49b7-8b94-4ca3661159e9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Title\":\"Title2\",\n    \"Description\":\"Description2\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5215/api/task/8abeb7a9-4bc0-4440-9255-7ddea78f1d4d",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5215",
+					"path": [
+						"api",
+						"task",
+						"8abeb7a9-4bc0-4440-9255-7ddea78f1d4d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5215/api/task/8abeb7a9-4bc0-4440-9255-7ddea78f1d4d",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5215",
+					"path": [
+						"api",
+						"task",
+						"8abeb7a9-4bc0-4440-9255-7ddea78f1d4d"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
